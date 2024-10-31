@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:BaseDb"
+    },
+    "mssql2": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "SeriLogConfigurations:OracleConfiguration:ConnectionString"
+    },
+    "redis1": {
+      "ignored": "true",
+      "type": "redis"
+    },
+    "identityapp1": {
+      "ignored": "true",
+      "type": "identityapp"
+    }
+  }
+}
